@@ -10,10 +10,14 @@
   "prettier": "@ww/prettier-config",
   "dependencies": {
     "@aws-sdk/credential-provider-node": "^3.758.0",
-    "@smithy/eventstream-codec": "^2.2.0"
+    "@smithy/eventstream-codec": "^2.2.0",
+    "concurrently": "^9.1.2"
   },
   "devDependencies": {
     "@ww/prettier-config": "^1.5.0",
     "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start -w=creative-agent\" \"npm run start -w=research-agent\" \"npm run start -w=remote-graphs-workflow\""
   }
 }
