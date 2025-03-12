@@ -1,0 +1,6 @@
+{
+  "graphs": {
+    "creativeAgent": "./creative-graph.ts"
+  },
+  "port": 3002
+}

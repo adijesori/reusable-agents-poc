@@ -1,0 +1,20 @@
+{
+  "name": "creative-agent",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.34",
+    "@langchain/core": "^0.3.42",
+    "remote-graphs-utils": "^1.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  }
+}

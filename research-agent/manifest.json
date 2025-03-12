@@ -1,0 +1,6 @@
+{
+  "graphs": {
+    "researchAgent": "./research-graph.ts"
+  },
+  "port": 3001
+}
